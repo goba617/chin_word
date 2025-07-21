@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
   button{font-size:20px;
   margin:6px;
@@ -11,6 +12,10 @@
 </style>
 </head>
 <body>
+<p>前方<strong>中括弧的地方是詞性或多種讀音</strong></p>
+<p>形近字會<strong>在同一橫排</strong></p>
+<p>如果發現沒有回應訊息先試著往下滑還是沒有的話就是壞了</p>
+<h2>夏夜</h2>
 <button onclick="mi()">蜜</button>
 <button onclick="mi2()">密</button><br>
 <button onclick="po()">坡</button>
@@ -22,7 +27,37 @@
 <button onclick="shao2()">捎</button>
 <button onclick="shao3()">稍</button><br>
 <button onclick="sa()">撒</button>
+<button onclick="che()">撤</button><br>
+<button onclick="bi()">幣</button>
+<button onclick="bi2()">弊</button>
+<button onclick="bi3()">斃</button><br>
+<button onclick="he()">闔</button>
+<button onclick="he2()">閡</button><br>
+<button onclick="luan()">巒</button>
+<button onclick="luan2()">孿</button>
+<button onclick="luan3()">攣</button>
+<button onclick="luan4()">蠻</button><br>
+<button onclick="liou()">溜</button>
 <p id="return"></p>
+<h2>吃冰的滋味</h2>
+<button onclick="bao()">刨</button>
+<button onclick="pao()">咆</button>
+<button onclick="pao2()">庖</button><br>
+<button onclick="dan()">旦</button>
+<button onclick="dan2()">但</button><br>
+<button onclick="shi()">嗜</button>
+<button onclick="qi()">耆</button><br>
+<button onclick="so()">叟</button>
+<button onclick="so2()">搜</button>
+<button onclick="yu()">臾</button><br>
+<button onclick="qi2()">欺</button>
+<button onclick="qi3()">期</button>
+<button onclick="qi4()">旗</button><br>
+<button onclick="xia()">遐</button>
+<button onclick="xia2()">暇</button>
+<button onclick="xia3()">瑕</button><br>
+
+<p id="returnU2"></p>
 <script>
 function mi(){document.getElementById("return").innerText="［名］蜜蜂採取花中甘液所釀成的甜汁 ex:花蜜\n［形］甜美的，動人的 ex:甜言蜜語";}
 function mi2(){document.getElementById("return").innerText="［形］親近的 ex:親密\n［名］隱藏不公開的事 ex:保守秘密";}
@@ -35,6 +70,33 @@ function shao(){document.getElementById("return").innerText="［名］樹枝的�
 function shao2(){document.getElementById("return").innerText="［動］請人順便攜帶物品 ex:捎信";}
 function shao3(){document.getElementById("return").innerText="［副］略微 ex:稍縱即逝";}
 function sa(){document.getElementById("return").innerText="［ㄙㄚˇ］［動］散布 ex:撒胡椒粉\n［ㄙㄚ］[動]施展，表現 ex:撒嬌\n［ㄙㄚ］［動］放開 ex:撒手不管";}
+function che(){document.getElementById("return").innerText="[動]除去，免去 ex:撤職\n[動]退回 ex:撤兵";}
+function bi(){document.getElementById("return").innerText="[名]有標準價格可作交易媒介的東西 ex:錢幣";}
+function bi2(){document.getElementById("return").innerText="[名]害處 ex:有利無弊\n[名]不正當的事 ex:作弊";}
+function bi3(){document.getElementById("return").innerText="[動]死亡 ex:暴斃";}
+function he(){document.getElementById("return").innerText="[動]閉合 ex:闔上\n[形]全部 ex:闔第光臨";}
+function he2(){document.getElementById("return").innerText="[動]阻隔，妨礙 ex:隔閡";}
+function luan(){document.getElementById("return").innerText="[名]連綿的山峰 ex:山巒";}
+function luan2(){document.getElementById("return").innerText="[名]雙胞胎 ex:孿生兄弟";}
+function luan3(){document.getElementById("return").innerText="［動］手，足因抽搐而彎曲不能伸直 ex:痙攣";}
+function luan4(){document.getElementById("return").innerText="［形］強橫，不通情理 ex:蠻橫";}
+function liou(){document.getElementById("return").innerText="［ㄌㄧㄡ］［動］流動 ex:溜過彎彎的小橋\n［動］私自離開或進入 ex:溜回家\n［ㄌㄧㄡˋ］［形］流暢，流利 ex:英文說的溜";}
+function bao(){document.getElementById("returnU2").innerText="［ㄅㄠˋ］［動］削刮成碎屑 ex:刨木頭\n［ㄆㄠˊ］［動］挖掘 ex:刨根究底";}
+function pao(){document.getElementById("returnU2").innerText="［動］野獸怒吼 ex:咆哮";}
+function pao2(){document.getElementById("returnU2").innerText="［名］廚師 ex:越俎代庖";}
+function dan(){document.getElementById("returnU2").innerText="［名］某天，某日 ex:一旦\n［名］天剛亮的時候 ex:枕戈待旦";}
+function dan2(){document.getElementById("returnU2").innerText="［副］只，僅 ex:但願如此\n［連］不過，可是 ex:但是";}
+function shi(){document.getElementById("returnU2").innerText="［動］喜好，愛好 ex:嗜之如命";}
+function qi(){document.getElementById("returnU2").innerText="［名］對老人的通稱 ex:耆老";}
+function so(){document.getElementById("returnU2").innerText="［名］老人 ex:童叟無欺";}
+function so2(){document.getElementById("returnU2").innerText="［動］找尋 ex:搜尋\n［動］檢查 ex:搜身";}
+function yu(){document.getElementById("returnU2").innerText="［名］片刻，暫時 ex:須臾";}
+function qi2(){document.getElementById("returnU2").innerText="［動］詐騙 ex:欺瞞\n［動］侮辱 ex:仗勢欺人";}
+function qi3(){document.getElementById("returnU2").innerText="［動］盼望 ex:期望\n［動］約定 ex:不期而遇\n［名］時，日 ex:限期";}
+function qi4(){document.getElementById("returnU2").innerText="［名］裝在竿子上，有特殊圖案當作某種標誌或號令的布或紙 ，ex:棋子";}
+function xia(){document.getElementById("returnU2").innerText="［形］遠 ex:名聞遐邇";}
+function xia2(){document.getElementById("returnU2").innerText="［名］空閒 ex:自顧不暇";}
+function xia3(){document.getElementById("returnU2").innerText="［名］玉上的斑點(比喻過失) ex:瑕不掩瑜";}
 </script>
 </body>
 </html>
